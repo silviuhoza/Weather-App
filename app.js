@@ -16,7 +16,7 @@ app.get("/results", function (req, res) {
 		if (!error && response.statusCode == 200) {
 			
 		 var nimu = JSON.parse(body);
-		 //console.log(nimu );
+		 
 	     res.render("results", {data: nimu});
 	    
 		} 
