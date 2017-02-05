@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+<h1 class="center white">Weather Predictor</h1>
+<p class="lead center white">Enter your city below to get a forecast for the weather</p>
+
+<form action="/results" method="GET" required>
+   <div class="form-group">
+		<input class="form-control" type="text" placeholder="Your city" name="search">
+		<input id="find" class="btn btn-success btn-lg" type="submit" value="Find my Weather">
+	</div>
+</form>
+<% include partials/footer %>

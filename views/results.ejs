@@ -1,0 +1,19 @@
+ <% include partials/header %>
+
+ <h1 class="center white">This is the Weather of Your City</h1> 
+ <div class="jumbotron">
+	<ul class="white">
+		<li>Country: <%= data.location.country %></li>
+		<li>Region: <%= data.location.region %></li>
+		<li>City:  <strong><%= data.location.name %></strong>
+	    </li>
+	    <li>Local time: <%= data.location.localtime%></li>
+	    <li>Temperature: <%= data.current.temp_c%> <strong>C</strong></li>
+	    <li>Condition: <%= data.current.condition.text %>
+	      </li>
+	</ul>
+	<img src="http:<%= data.current.condition.icon %>">
+	<br>
+	<a  class="btn btn-info" href="/">Search Again</a>
+</div>
+<% include partials/footer %>
