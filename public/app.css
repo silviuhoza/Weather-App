@@ -3,7 +3,9 @@ html, body {
 			width: 100%;
 		}
 		.container{
-			background-image: url("images/background3.jpg");
+			/*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5RYDlzmqJwobMW3NKlIfIg_9TGYiJ2WJA1etTUvHUYiTXxEA2g");*/
+			background-image: url("https://amazingcarousel.com/wp-content/uploads/amazingcarousel/13/images/lightbox/golden-wheat-field-lightbox.jpg");
+			
 			width: 100%;
 			height: 100%;
 			-webkit-background-size: cover;
